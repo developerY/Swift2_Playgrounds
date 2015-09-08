@@ -14,5 +14,8 @@
         <page name='Control Flow Experiments'/>
         <page name='Functions'/>
         <page name='Closures'/>
+        <page name='Enumerations'/>
+        <page name='Class &amp; Struct'/>
+        <page name='Properties'/>
     </pages>
 </playground>
