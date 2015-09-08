@@ -10,5 +10,8 @@
         <page name='Sets'/>
         <page name='Dictionary'/>
         <page name='Control Flow'/>
+        <page name='Gaurd'/>
+        <page name='Control Flow Experiments'/>
+        <page name='Functions'/>
     </pages>
 </playground>
