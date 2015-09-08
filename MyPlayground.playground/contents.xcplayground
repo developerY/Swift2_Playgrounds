@@ -17,5 +17,7 @@
         <page name='Enumerations'/>
         <page name='Class &amp; Struct'/>
         <page name='Properties'/>
+        <page name='Methods'/>
+        <page name='Subscripts'/>
     </pages>
 </playground>
