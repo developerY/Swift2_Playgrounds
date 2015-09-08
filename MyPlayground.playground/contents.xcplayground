@@ -19,5 +19,17 @@
         <page name='Properties'/>
         <page name='Methods'/>
         <page name='Subscripts'/>
+        <page name='Inheritance'/>
+        <page name='Initialization'/>
+        <page name='Initializer Chaining'/>
+        <page name='Deinitialization'/>
+        <page name='ARC'/>
+        <page name='Optional Chaining'/>
+        <page name='Type Casting'/>
+        <page name='Nested Types'/>
+        <page name='Extensions'/>
+        <page name='Protocols'/>
+        <page name='Generics'/>
+        <page name='Advanced Operations'/>
     </pages>
 </playground>
