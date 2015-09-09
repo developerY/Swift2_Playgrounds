@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
     <pages>
+        <page name='Learning Objectives'/>
         <page name='Basics'/>
+        <page name='Basic Types Summery'/>
         <page name='Optionals'/>
         <page name='Basic Operations'/>
         <page name='String &amp; Char'/>
@@ -13,9 +15,12 @@
         <page name='Gaurd'/>
         <page name='Control Flow Experiments'/>
         <page name='Functions'/>
+        <page name='Functions and Methods'/>
         <page name='Closures'/>
         <page name='Enumerations'/>
         <page name='Class &amp; Struct'/>
+        <page name='Classes and Initializers'/>
+        <page name='Enumerations and Structures'/>
         <page name='Properties'/>
         <page name='Methods'/>
         <page name='Subscripts'/>
@@ -29,7 +34,10 @@
         <page name='Nested Types'/>
         <page name='Extensions'/>
         <page name='Protocols'/>
+        <page name='Protocols Summery'/>
         <page name='Generics'/>
         <page name='Advanced Operations'/>
+        <page name='Swift and Cocoa Touch'/>
+        <page name='CoreData'/>
     </pages>
 </playground>
