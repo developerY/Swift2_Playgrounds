@@ -1,23 +1,23 @@
 //: [Previous](@previous)
 
-// ------------------------------------------------------------------------------------------------
-// Things to know:
-//
-// * Nested types are utility classes and structures that are declared within other classes,
-//   structures and enumerations.
-// ------------------------------------------------------------------------------------------------
+//: ------------------------------------------------------------------------------------------------
+//: Things to know:
+//:
+//: * Nested types are utility classes and structures that are declared within other classes,
+//:   structures and enumerations.
+//: ------------------------------------------------------------------------------------------------
 
-// Let's take a look at how we might define a Blackjack Card using nested types.
-//
-// Each card has a suit (Spades, Hearts, Diamonds, Clubs) and a rank (Ace, King, Queen, etc.) This
-// is a natural use of nested types because the suit and rank enumerations only apply to a
-// Blackjack card and so they are scoped to within that that type.
-//
-// Additionally, since the rank of an Ace can be valued at either an 11 or a 1, we can create
-// a nested structure within the Rank enumeration that allows us to multiple values for a given
-// rank.
-//
-// Let's see how this might be implemented:
+//: Let's take a look at how we might define a Blackjack Card using nested types.
+//:
+//: Each card has a suit (Spades, Hearts, Diamonds, Clubs) and a rank (Ace, King, Queen, etc.) This
+//: is a natural use of nested types because the suit and rank enumerations only apply to a
+//: Blackjack card and so they are scoped to within that that type.
+//:
+//: Additionally, since the rank of an Ace can be valued at either an 11 or a 1, we can create
+//: a nested structure within the Rank enumeration that allows us to multiple values for a given
+//: rank.
+//:
+//: Let's see how this might be implemented:
 struct BlackjackCard
 {
     // Nested Suit enumeration
@@ -76,16 +76,16 @@ struct BlackjackCard
     }
 }
 
-// Let's initialize a BlackJack card for the Ace of Spades. Note that BlackjackCard doesn't define
-// any initializers, so we're able to use the default memberwise initializer.
-//
-// Also note that since the initializer knows thet type of each member being initialized (both of
-// which are enumerations) we can use the shorthand method (.Something) for each member's initial
-// value.
+//: Let's initialize a BlackJack card for the Ace of Spades. Note that BlackjackCard doesn't define
+//: any initializers, so we're able to use the default memberwise initializer.
+//:
+//: Also note that since the initializer knows thet type of each member being initialized (both of
+//: which are enumerations) we can use the shorthand method (.Something) for each member's initial
+//: value.
 let theAceOfSpades = BlackjackCard(rank: .Ace, suit: .Spades)
 theAceOfSpades.description
 
-// To access the nested type, we can drill down into the type using type names:
+//: To access the nested type, we can drill down into the type using type names:
 let heartsSymbol = String( BlackjackCard.Suit.Hearts.rawValue )
 
 

@@ -70,7 +70,9 @@ var SomeDouble: Double = 4
 let π = 3.14159
 let 你好 = "你好世界"
 let 🐶🐮 = "dogcow"
-
+let dogcow = "🐶🐮"
+print(🐶🐮)
+print(dogcow)
 //: You can print a value using println
 let fiveHundred = 500
 print("The current value of fiveHundred is: \(fiveHundred)")
