@@ -1,4 +1,7 @@
 # Swift2_Playgrounds
+
+https://developer.apple.com/videos/wwdc/2015/?id=106
+
 Learn Swift 2.0 from playgounds
 
 ~~~
