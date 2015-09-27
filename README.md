@@ -22,7 +22,8 @@ A) I would start with "A Swift (2.0) Tour" to cover all the basics of the langua
 https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
 
 
-B) Then I would do a deep dive on the more complex parts of the language using "Learn the Essentials of Swift (2.0)".[Swift2LagRef.playgrounds]
+B) Then I would do a deep dive on the more complex parts of the language using "Learn the Essentials of Swift (2.0)".
+[Swift2LagRef.playgrounds]
 https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
 
 
@@ -34,6 +35,7 @@ https://developer.apple.com/library/prerelease/ios/documentation/General/Referen
 
 
 B) Then I would show how to use the new iOS9 UIStackView. 
+[Learn the Essentials of Swift.playground]
 [Start-Dev-iOS-Apps] - Xcode 7 project
 https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html#//apple_ref/doc/uid/TP40015214-CH2-SW1
 
