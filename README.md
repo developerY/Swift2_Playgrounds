@@ -1,8 +1,7 @@
 # Swift2_Playgrounds
 
-https://developer.apple.com/videos/wwdc/2015/?id=106
-
 Learn Swift 2.0 from playgounds
+https://developer.apple.com/videos/wwdc/2015/?id=106
 
 ~~~
 Inside the repo you will find Xcode 7 Playgrounds.  These "live" books are how I teach Swift 2.0 / iOS 9.
