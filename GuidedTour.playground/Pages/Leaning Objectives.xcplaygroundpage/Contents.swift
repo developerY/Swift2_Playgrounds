@@ -1,3 +1,4 @@
+//: [Previous](@previous)
 //: > **Important**: This is a preliminary document for an API or technology in development. Apple is supplying this information to help you plan for the adoption of the technologies and programming interfaces described herein for use on Apple-branded products. This information is subject to change, and software implemented according to this document should be tested with final operating system software and final documentation. Newer versions of this document may be provided with future betas of the API or technology.
 //: # Learn the Essentials of Swift
 //:
@@ -32,5 +33,5 @@
 //: * Import and use UIKit
 //:
 //: See [License](License) for this sample's licensing information.
-//: 
+
 //: [Next](@next)

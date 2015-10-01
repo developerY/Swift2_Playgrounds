@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 //: ## Swift and Cocoa Touch
 //:
 //: Swift is designed to provide seamless interoperability with Cocoa Touch, the set of Apple frameworks you use to develop apps for iOS. As you walk through the rest of the lessons, it helps to have a basic understanding of how Swift interacts with Cocoa Touch.
@@ -25,4 +27,5 @@ redSquare.backgroundColor = UIColor.redColor()
 //:
 //: With this breadth of knowledge about Swift, you’re about to jump into making a full-fledged app in the next lesson. Although this lesson is the extent of playgrounds you’ll work with for now, remember that they can be a powerful tool in app development for anything from debugging, to visualizing complex code, to rapid prototyping.
 //:
-//: [Previous](@previous)
+
+//: [Next](@next)
