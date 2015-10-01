@@ -67,6 +67,15 @@ let emptyDictionary = [String: Float]()
 shoppingList = []
 occupations = [:]
 
+//: You’ll notice that the code above has a comment. A _comment_ is a piece of text in a source code file that doesn’t get compiled as part of the program but provides context or useful information about individual pieces of code. A single-line comment appears after two slashes (`//`) and a multiline comment appears between a set of slashes and asterisks (`/*` … `*/`). You’ll see and write both types of comments throughout the source code in the lessons.
+//:
+//: An _implicitly unwrapped optional_ is an optional that can also be used like a nonoptional value, without the need to unwrap the optional value each time it’s accessed. This is because an implicitly unwrapped optional is assumed to always have a value after that value is initially set, although the value can change. Implicitly unwrapped optional types are indicated with an exclamation mark (`!`) instead of a question mark (`?`).
+//:
+var implicitlyUnwrappedOptionalInt: Int!
+
+//: You’ll rarely need to create implicitly unwrapped optionals in your own code. More often, you’ll see them used to keep track of outlets between an interface and source code (which you’ll learn about in a later lesson) and in the _APIs_ you’ll see throughout the lessons.
+//:
+
 
 
 //: See [License](License) for this sample's licensing information.

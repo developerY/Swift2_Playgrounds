@@ -10,6 +10,7 @@ func repeatItem<Item>(item: Item, numberOfTimes: Int) -> [Item] {
     return result
 }
 repeatItem("knock", numberOfTimes:4)
+repeatItem(12, numberOfTimes:4)
 
 //: You can make generic forms of functions and methods, as well as classes, enumerations, and structures.
 //:

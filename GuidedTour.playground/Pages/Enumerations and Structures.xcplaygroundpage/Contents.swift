@@ -1,7 +1,14 @@
 //: ## Enumerations and Structures
 //:
+//: Classes aren’t the only ways to define data types in Swift. Enumerations and structures have similar capabilities to classes, but can be useful in different contexts.
+//:
+//: _Enumerations_ define a common type for a group of related values and enable you to work with those values in a type-safe way within your code. Enumerations can have methods associated with them.
+//:
+//:
 //: Use `enum` to create an enumeration. Like classes and all other named types, enumerations can have methods associated with them.
 //:
+//:
+
 enum Rank: Int {
     case Ace = 1
     case Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten
@@ -60,7 +67,10 @@ let heartsDescription = hearts.simpleDescription()
 //:
 //: Notice the two ways that the `Hearts` member of the enumeration is referred to above: When assigning a value to the `hearts` constant, the enumeration member `Suit.Hearts` is referred to by its full name because the constant doesn’t have an explicit type specified. Inside the switch, the enumeration member is referred to by the abbreviated form `.Hearts` because the value of `self` is already known to be a suit. You can use the abbreviated form anytime the value’s type is already known.
 //:
-//: Use `struct` to create a structure. Structures support many of the same behaviors as classes, including methods and initializers. One of the most important differences between structures and classes is that structures are always copied when they are passed around in your code, but classes are passed by reference.
+//: _Structures_ support many of the same behaviors as classes, including methods and initializers. One of the most important differences between structures and classes is that **structures are always copied when they are passed around in your code, but classes are passed by reference**. Structures are great for defining lightweight data types that don’t need to have capabilities like inheritance and type casting.
+//:
+//: Use `struct` to create a structure.
+//:
 //:
 struct Card {
     var rank: Rank
