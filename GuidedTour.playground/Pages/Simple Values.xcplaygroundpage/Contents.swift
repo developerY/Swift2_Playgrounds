@@ -56,7 +56,7 @@ var occupations = [
     "Kaylee": "Mechanic",
  ]
 occupations["Jayne"] = "Public Relations"
-
+occupations["Malcolm"] = "bum"
 //: To create an empty array or dictionary, use the initializer syntax.
 //:
 let emptyArray = [String]()
