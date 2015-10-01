@@ -47,7 +47,7 @@ Slides:
 https://docs.google.com/a/ylabz.com/presentation/d/1tfsH9mYOK9_VYSx2t8juFXKvJzLThlhLHwqT5bWfswE/edit?usp=sharing
 
 *Short course*
-SwiftInfo (10Min)
+A Swift Info [GuidedTour.playground] (30Min)
 Swift2New.playground (30Min)
 
 Xcode Project TableViews with AutoLayout and UIStackView (30Min)
