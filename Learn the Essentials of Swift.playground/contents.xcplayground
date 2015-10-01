@@ -3,11 +3,11 @@
     <pages>
         <page name='Learning Objectives'/>
         <page name='Basic Types'/>
-        <page name='Control Flow Experiment'/>
+        <page name='Control Flow'/>
         <page name='Functions and Methods'/>
         <page name='Classes and Initializers'/>
         <page name='Enumerations and Structures'/>
-        <page name='Protocols Summery'/>
+        <page name='Protocols'/>
         <page name='Swift and Cocoa Touch'/>
         <page name='License'/>
     </pages>
